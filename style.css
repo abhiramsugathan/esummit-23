@@ -1,0 +1,252 @@
+html {
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Bebas Neue',sans-serif;
+    text-decoration: none;
+}
+
+#root{
+    background-color: black;
+    color: white;
+}
+header{
+padding: 1rem;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+   header img{
+        width: 40px;
+    }
+
+   header ul{
+       list-style-type: none;
+       display: flex;
+       align-items: center;
+       gap: 1rem;
+    }
+  header  a{
+        color: white;
+    }
+
+  section:nth-child(1){
+    height: 100vh;
+    padding: 0 8rem;
+    background-size: 100% 100%;
+    background-image: url("./assets/Startup-budget-800x400.jpg");
+    
+    
+    
+  }
+    h1{
+        font-size: 3.8rem;
+        line-height: 5.5rem;
+        font-weight: 300;
+        margin-top: 4rem;
+        padding: 1rem;
+        
+        
+    }
+   section:nth-child(1)  p{
+        font-family: 'Bebas Neue',sans-serif;
+        max-width: 45%;
+        line-height: 1.5rem;
+        padding: 1rem;
+        color: white;
+         float: right;
+    }
+
+    section:nth-child(1)  button:nth-child(1) a {
+        background-color:orangered;
+        border-radius: .6rem;
+        border: 0;
+        color: white;
+        padding: .75rem 1rem;
+        
+        font-size: 1rem;
+        text-align: right;
+       
+    }
+    section:nth-child(1)  div{
+        display: flex;
+        gap: 2rem;
+        padding: 1rem;
+        bottom: 10rem;
+        position: absolute;
+        margin-top: 8rem;
+        
+        
+    }
+    section:nth-child(1)   button:nth-child(2) a {
+        background-color: black;
+        border-radius: .6rem;
+        border: 0;
+        color: white;
+       padding: .9rem 3rem;
+        text-align: right;
+        
+        font-size: 1rem;
+        
+    }
+    section:nth-child(1)  button:nth-child(1) {
+        background-color:orangered;
+        border-radius: .6rem;
+        border: 0;
+        color: white;
+        padding: .8rem 1rem;
+        
+        font-size: 1rem;
+    }
+    section:nth-child(1)   button:nth-child(2) :hover{
+        background-color: rgba(75, 72, 72, 0.2);
+    }
+
+
+    section:nth-child(2){
+        min-height: 110vh;
+        padding: 0 8rem;
+        background-size: 100% 100%;
+        background-image: url("./assets/HD-wallpaper-rocket-on-a-blue-background-blue-lines-rocket-startup-blue-background-startup-concepts-rocket-neon-light-rocket.jpg");
+        
+      }
+    section:nth-child(2)  p{
+        font-family: 'Bebas Neue',sans-serif;
+        max-width: 60%;
+        line-height: 1.5rem;
+        padding: 1rem;
+        color: white;
+    }
+
+    section:nth-child(2) h2{
+        font-size: 1.2rem;
+        padding: 1rem;
+        text-align: left;
+    }
+
+    section:nth-child(2) ul{
+        padding-left: 2rem;
+        font-family: 'Bebas Neue',sans-serif;
+        color: white;
+    }
+    .s{
+        text-align: left;
+    }
+    section:nth-child(3){
+    background-size: 100% 100%;
+    background-image: url("./assets/istockphoto-1401433457-612x612.jpg");
+    padding: 15vmax 2vmax;}
+  img{
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: -5px;
+  }
+  section:nth-child(3){
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+    border-radius: 10px;}
+    p{
+      font: 800 1.75vmin ;
+    }
+
+    & > p:nth-child(1){
+      font-weight: bold;
+      font-family:'Bebas Neue',sans-serif;
+      font-size: 6vmin;
+      text-align: center;
+      padding: 2rem;
+    }
+ form > button{
+ margin-top: 8rem;
+  left: 50%;
+  translate: -50% 0%;
+        background-color: #dd6b20;
+        border-radius: .6rem;
+        border: 0;
+        color: white;
+        padding: .6rem 1.2rem;
+        font-weight: bold;
+        font-size: 1.25rem;
+        
+    }
+    form > button:hover{
+      background-image: linear-gradient(rgba(0,0,0,0.13), rgba(0,0,0,0.13));
+    }
+    form{
+      display: grid;
+      position: relative;
+      row-gap: 2rem;
+      column-gap: 5rem;
+      padding: 1rem 20vmin;
+      padding-bottom: 10vmax !important;
+      grid-template-columns: auto auto;
+      
+    }
+
+   input[type="text"], select{
+    background-color: white;
+    font-family:'Bebas Neue',sans-serif;
+    font-size: 1rem;
+    margin-top: 8px;
+    width: 100%;
+    border: 2px solid #ededed;
+    border-radius: 5px;
+    padding: .6rem;}
+    &:focus{
+      outline:0;
+      border: 2px solid skyblue;
+    }
+   
+
+    footer img {
+      width: 2rem !important;
+    }
+    footer {
+      padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items:normal;
+   
+    height: 40vh;
+    background-image: none;
+    
+    }
+    footer section:nth-child(1) {
+      padding: 1rem;
+      display: flex;
+      align-items:normal;
+
+      height: 30vh;
+      background-image: none;
+    }
+    footer section:nth-child(2) {
+      padding: 1rem;
+      display: flex;
+      align-items:normal;
+      
+      height: 39vh;
+      background-image: none;
+      flex-direction: column;
+      text-align: left; 
+    }
+    
+  
+  @media (max-width:768px){
+   
+     form{
+      display: grid;
+       grid-template-columns: auto !important;
+       justify-content: center !important;
+       padding: .5rem 10vmin !important;
+     }
+   }
+   
+  @media (min-width:990px){
+       &{
+        padding: 1vmin 8vmax;
+       }
+   }
